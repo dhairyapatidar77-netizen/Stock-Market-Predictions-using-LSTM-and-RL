@@ -57,68 +57,79 @@ Currently, the project has been completed **up to Week 4**, where the focus has 
 # Week-wise Progress
 
 ---
+# Week 1 - Python Fundamentals, Data Preprocessing and Exploratory Data Analysis
 
-# Week 1 - Foundations of Python, Finance and Machine Learning
-
-The first week focused on building the necessary mathematical and programming foundations required for machine learning and stock market prediction.
+The first week established the programming and data analysis foundations required for the project. The focus was on learning Python libraries commonly used in data science and understanding how raw datasets are prepared and analyzed before model development.
 
 ## Topics Covered
 
 ### Python Programming
 
-* Variables and data types
-* Lists, tuples, dictionaries and sets
-* Conditional statements
-* Loops
-* Functions
-* Object-oriented basics
-* File handling
+- Variables and Data Types
+- Conditional Statements
+- Loops
+- Functions
+- Lists, Tuples, Dictionaries and Sets
+- File Handling
+- Basic Object-Oriented Programming
 
 ### NumPy
 
-* Creating arrays
-* Array indexing and slicing
-* Broadcasting
-* Vectorized operations
-* Mathematical functions
-* Matrix operations
-* Reshaping arrays
-* Transpose and aggregation functions
+- Creating and manipulating arrays
+- Array indexing and slicing
+- Broadcasting
+- Mathematical operations
+- Matrix operations
+- Reshaping arrays
+- Aggregation functions
 
-### Machine Learning Basics
+### Pandas
 
-* What is Machine Learning?
-* Types of Machine Learning
+- Reading CSV files
+- DataFrames and Series
+- Selecting and filtering data
+- Sorting data
+- GroupBy operations
+- Descriptive statistics
+- Handling missing values
+- Data preprocessing techniques
 
-  * Supervised Learning
-  * Unsupervised Learning
-  * Reinforcement Learning
-* Machine Learning pipeline
-* Features and labels
-* Training and testing datasets
+### Matplotlib
 
-### Finance Fundamentals
+- Line plots
+- Scatter plots
+- Histograms
+- Bar charts
+- Customizing plots
+- Data visualization basics
 
-A strong understanding of finance is essential before predicting stock prices.
+### Data Preprocessing
 
-Topics learned include:
+- Cleaning datasets
+- Handling missing values
+- Removing duplicates
+- Feature selection
+- Understanding data quality
 
-* Stock market basics
-* Stocks and shares
-* Exchanges
-* Market capitalization
-* Candlestick charts
-* Open, High, Low and Close (OHLC) prices
-* Trading volume
-* Bull and bear markets
-* Risk vs return
-* Fundamental vs technical analysis
+### Exploratory Data Analysis (EDA)
+
+- Dataset exploration
+- Statistical summaries
+- Correlation analysis
+- Identifying trends and patterns
+- Visual interpretation of datasets
+
+### Assignments Completed
+
+- Python programming exercises
+- NumPy assignment
+- Pandas assignment
+- Matplotlib assignment
 
 ## Outcome
 
-By the end of Week 1, I developed the programming and financial foundations necessary for future machine learning tasks.
+By the end of Week 1, I developed a strong foundation in Python programming, data preprocessing, exploratory data analysis, and visualization techniques, which are essential for machine learning and financial data analysis.
 
----
 
 # Week 2 - Data Preprocessing and Exploratory Data Analysis
 
