@@ -1,1 +1,1 @@
-# Stock_Price_Prediction_SoC_iitb
+# Stock-Price-Prediction
