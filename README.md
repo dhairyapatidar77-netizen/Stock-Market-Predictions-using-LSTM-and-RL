@@ -27,15 +27,15 @@ Currently, the project has been completed **up to Week 4**, where the focus has 
 
 ```
 ├── Week 1
-│   ├── Python & NumPy Assignments
-│   ├── Finance Basics
-│   └── Machine Learning Fundamentals
+│   ├── Python Basics
+│   ├── Python,NumPy & Matplotlib Assignments 
+│   └── Data Analysis 
 │
 ├── Week 2
-│   ├── Data Preprocessing
-│   ├── Pandas
+│   ├── yfinance library
+│   ├── Stock Market Data Extraction
 │   ├── Exploratory Data Analysis
-│   └── Sentiment Analysis Assignment
+│   └── Technical Analysis
 │
 ├── Week 3
 │   ├── Regression
