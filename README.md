@@ -130,30 +130,23 @@ The first week established the programming and data analysis foundations require
 
 By the end of Week 1, I developed a strong foundation in Python programming, data preprocessing, exploratory data analysis, and visualization techniques, which are essential for machine learning and financial data analysis.
 
+# Week 2 - Financial Data Extraction and Technical Analysis
 
-# Week 2 - Stock Market Data Extraction and Analysis
-
-The second week focused on understanding how historical stock market data can be collected, explored, and prepared for future machine learning models. Since reliable data is the backbone of any stock prediction system, this week emphasized working with real-world financial datasets.
+The second week focused on working with real-world financial datasets using the `yfinance` library. The objective was to understand how historical stock market data is collected, visualized, and analyzed using commonly used technical indicators that assist in identifying market trends.
 
 ## Topics Covered
 
-### Stock Market Data Extraction
+### Historical Stock Data Extraction
 
-Learned how to obtain historical stock market data using Python libraries such as **yfinance**.
-
-Topics included:
-
-- Downloading historical stock price data
-- Selecting stock tickers
-- Understanding different time periods and intervals
-- Working with daily stock price data
-- Extracting Open, High, Low, Close (OHLC) prices
-- Understanding trading volume
-- Exporting datasets for further analysis
+- Fetching stock market data using the `yfinance` library
+- Downloading historical price data for selected stocks
+- Working with different time intervals
+- Understanding Yahoo Finance datasets
+- Exploring historical stock prices from different time periods
 
 ### Understanding Financial Data
 
-Explored the structure of stock market datasets and the significance of various features, including:
+Studied the structure of stock market datasets, including:
 
 - Date
 - Open Price
@@ -161,33 +154,82 @@ Explored the structure of stock market datasets and the significance of various 
 - Low Price
 - Close Price
 - Adjusted Close Price
-- Volume
+- Trading Volume
 
-Also learned how these features are used in financial analysis and future price prediction.
+Learned the significance of each feature in financial analysis and stock price prediction.
 
-### Basic Data Analysis
+### Stock Price Visualization
 
-Performed preliminary analysis on the extracted datasets by:
+Visualized historical stock prices using Matplotlib by:
 
-- Inspecting dataset dimensions
-- Checking data types
-- Identifying missing values
-- Computing descriptive statistics
-- Observing overall stock price trends
-- Understanding market behaviour over time
+- Plotting closing prices
+- Comparing multiple stocks on the same graph
+- Observing long-term price trends
+- Understanding market movement through visual analysis
 
-### Data Visualization
+### Technical Analysis
 
-Used Matplotlib to visualize stock market data through:
+Implemented and analyzed several widely used technical indicators:
 
-- Closing price trends
-- Trading volume plots
-- Moving trends over time
-- Basic exploratory visualizations
+#### Simple Moving Average (SMA)
 
-### Outcome
+- Calculated the 5-day Simple Moving Average
+- Understood how moving averages smooth short-term price fluctuations
+- Used SMA to identify overall market trends
 
-By the end of Week 2, I was able to extract historical stock market data, understand its structure, perform basic exploratory analysis, and visualize important market trends. These skills established the foundation for preparing time-series data for deep learning models in the upcoming weeks.
+#### Exponential Moving Average (EMA)
+
+- Implemented the 5-day Exponential Moving Average
+- Compared EMA with SMA
+- Observed how EMA reacts more quickly to recent price changes
+
+#### Moving Average Convergence Divergence (MACD)
+
+Calculated:
+
+- 12-day EMA
+- 26-day EMA
+- MACD Line
+- 9-day Signal Line
+
+Used MACD to understand:
+
+- Trend direction
+- Bullish and bearish crossovers
+- Momentum changes
+
+#### Relative Strength Index (RSI)
+
+Implemented the 14-day RSI indicator and learned to identify:
+
+- Overbought conditions (RSI > 70)
+- Oversold conditions (RSI < 30)
+- Potential trend reversals
+
+### Analysis
+
+Performed comparative analysis on multiple stocks by:
+
+- Comparing historical price movements
+- Observing long-term growth trends
+- Interpreting SMA, EMA, MACD, and RSI signals
+- Understanding how technical indicators support trading decisions
+
+## Assignment Completed
+
+Implemented a complete stock analysis pipeline that included:
+
+- Downloading historical stock data using `yfinance`
+- Visualizing stock prices
+- Computing SMA and EMA
+- Implementing MACD and Signal Line
+- Calculating RSI
+- Summarizing observations from the generated charts
+
+## Outcome
+
+By the end of Week 2, I was able to extract historical stock market data, visualize price trends, implement popular technical indicators from scratch, and interpret their significance in financial analysis. This provided the necessary foundation for preparing sequential financial data for future LSTM-based stock price prediction.
+
 
 # Week 3 - Machine Learning Algorithms
 
