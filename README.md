@@ -131,72 +131,63 @@ The first week established the programming and data analysis foundations require
 By the end of Week 1, I developed a strong foundation in Python programming, data preprocessing, exploratory data analysis, and visualization techniques, which are essential for machine learning and financial data analysis.
 
 
-# Week 2 - Data Preprocessing and Exploratory Data Analysis
+# Week 2 - Stock Market Data Extraction and Analysis
 
-The second week focused on understanding real-world datasets and preparing them for machine learning.
-
-Since financial datasets are often noisy and incomplete, preprocessing is one of the most important steps before model building.
+The second week focused on understanding how historical stock market data can be collected, explored, and prepared for future machine learning models. Since reliable data is the backbone of any stock prediction system, this week emphasized working with real-world financial datasets.
 
 ## Topics Covered
 
-### Pandas
+### Stock Market Data Extraction
 
-* Reading CSV files
-* DataFrames
-* Selecting rows and columns
-* Filtering
-* Sorting
-* GroupBy operations
-* Descriptive statistics
-* Applying custom functions
+Learned how to obtain historical stock market data using Python libraries such as **yfinance**.
 
-### Data Cleaning
+Topics included:
 
-* Missing value detection
-* Handling null values
-* Duplicate removal
-* Data consistency checks
+- Downloading historical stock price data
+- Selecting stock tickers
+- Understanding different time periods and intervals
+- Working with daily stock price data
+- Extracting Open, High, Low, Close (OHLC) prices
+- Understanding trading volume
+- Exporting datasets for further analysis
 
-### Feature Engineering
+### Understanding Financial Data
 
-* Creating useful features
-* Encoding categorical variables
-* Label Encoding
-* One-Hot Encoding
+Explored the structure of stock market datasets and the significance of various features, including:
 
-### Data Scaling
+- Date
+- Open Price
+- High Price
+- Low Price
+- Close Price
+- Adjusted Close Price
+- Volume
 
-* Feature normalization
-* Standardization
-* Importance of scaling before model training
+Also learned how these features are used in financial analysis and future price prediction.
 
-### Exploratory Data Analysis (EDA)
+### Basic Data Analysis
 
-* Understanding data distributions
-* Correlation analysis
-* Histograms
-* Scatter plots
-* Line plots
-* Box plots
+Performed preliminary analysis on the extracted datasets by:
+
+- Inspecting dataset dimensions
+- Checking data types
+- Identifying missing values
+- Computing descriptive statistics
+- Observing overall stock price trends
+- Understanding market behaviour over time
 
 ### Data Visualization
 
-Using Matplotlib to visualize datasets and understand underlying patterns before training models.
+Used Matplotlib to visualize stock market data through:
 
-### Assignment
+- Closing price trends
+- Trading volume plots
+- Moving trends over time
+- Basic exploratory visualizations
 
-Implemented a **Sentiment Analysis** assignment involving:
+### Outcome
 
-* Text preprocessing
-* Feature extraction
-* Dataset preparation
-* Basic NLP workflow
-
-## Outcome
-
-Week 2 emphasized that clean and meaningful data is often more valuable than complex models.
-
----
+By the end of Week 2, I was able to extract historical stock market data, understand its structure, perform basic exploratory analysis, and visualize important market trends. These skills established the foundation for preparing time-series data for deep learning models in the upcoming weeks.
 
 # Week 3 - Machine Learning Algorithms
 
