@@ -58,7 +58,7 @@ Currently, the project has been completed **up to Week 4**, where the focus has 
 
 ---
 
-# Week 1 — Foundations of Python, Finance and Machine Learning
+# Week 1 - Foundations of Python, Finance and Machine Learning
 
 The first week focused on building the necessary mathematical and programming foundations required for machine learning and stock market prediction.
 
@@ -120,7 +120,7 @@ By the end of Week 1, I developed the programming and financial foundations nece
 
 ---
 
-# Week 2 — Data Preprocessing and Exploratory Data Analysis
+# Week 2 - Data Preprocessing and Exploratory Data Analysis
 
 The second week focused on understanding real-world datasets and preparing them for machine learning.
 
@@ -187,7 +187,7 @@ Week 2 emphasized that clean and meaningful data is often more valuable than com
 
 ---
 
-# Week 3 — Machine Learning Algorithms
+# Week 3 - Machine Learning Algorithms
 
 Week 3 introduced several core machine learning algorithms used for prediction and classification.
 
@@ -284,7 +284,7 @@ Week 3 strengthened my understanding of supervised and unsupervised learning alg
 
 ---
 
-# Week 4 — Neural Network Fundamentals and Time Series Preparation
+# Week 4 - Neural Network Fundamentals and Time Series Preparation
 
 Week 4 marked the transition from traditional machine learning toward deep learning concepts required for stock market forecasting.
 
@@ -441,8 +441,6 @@ The next stages of the project will include:
 
 **Dhairya Patidar**
 
-Electrical Engineering (Dual Degree)
-Indian Institute of Technology Bombay
 
 Project: **Stock Market Prediction using LSTM and Reinforcement Learning**
 
